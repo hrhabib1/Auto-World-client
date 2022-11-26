@@ -12,7 +12,7 @@ const LaftsideNav = () => {
                 <SiSpeedtest className='text-red-400 text-3xl' />
                 <h1 className='text-xl font-bold ml-2'>AUTO WORLD</h1>
             </div>
-            <div className='py-4 px-6 md:p-0 border-b-2 flex justify-between items-center'>
+            <div className='py-4 px-6 md:px-0 border-b-2 flex justify-between items-center'>
                 <div className='flex items-center'>
                     <GiBattery0 className='text-black text-xl' />
                     <h1 className='font-bold mx-2'>Basic information</h1>
