@@ -94,9 +94,9 @@ const LaftsideNav = () => {
                     <p className='text-success font-bold mr-2'>Found cars: </p>
                     <strong> 12 321</strong>
                 </div>
-                <div className='flex my-3'>
-                    <p className='bg-red-500 py-2 px-16 text-white flex-start'>Show</p>
-                    <button className='bg-red-200 p-3 ml-5'>X</button>
+                <div className='flex justify-center items-end my-3'>
+                    <p className='bg-red-500 py-2 px-16 text-white'>Show</p>
+                    <button className='bg-red-200 p-2 ml-5 md:ml-2 lg:ml-5'>X</button>
                 </div>
             </div>
 
