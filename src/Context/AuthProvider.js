@@ -6,7 +6,7 @@ const AuthProvider = ({children}) => {
     const [cars, setCars] = useState([])
     const searchref = useRef();
     useEffect(() => {
-        fetch(`http://localhost:5000/carsOptions?search=${search}`)
+        fetch(`https://ancient-tundra-23352.herokuapp.com/carOptions?search=${search}`)
             .then(res => res.json())
             .then(data => {setCars(data)})
     }, [search])
